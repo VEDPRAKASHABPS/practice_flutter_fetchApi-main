@@ -1,3 +1,4 @@
+import 'package:api_fetch/Ambulance/Ambulance.dart';
 import 'package:api_fetch/home_page.dart';
 import 'package:flutter/material.dart';
 
@@ -12,8 +13,9 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Api Fetch',
-      home: MyHome(),
+      home: Ambulance(),
     );
   }
 }
